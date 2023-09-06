@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Båth Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+             <a  href="#;" onclick="scrollToTop()"><h2>PB</h2></a>
+        <div class="nav-links">
+            <a href="https://github.com/Funkback" target="_blank">
+                <img src="Imagies/Images/github.svg"github logo">
+            </a>
+            <a href="https://www.linkedin.com/in/peter-b-00b526138/" target="_blank">
+                <img src="Imagies/Images/linkedin.svg" alt="Linkedin logo">
+            </a>
+            <a href="https://www.instagram.com/funkback/" target="_blank">
+                <img src="Imagies/Images/instagram.svg" alt="Instagram logo">
+            </a>
+        
+
+        </div>
+    </nav>
+    <main>
+        <div id="top"></div>
+        <header class="hero">
+            <div class="hero-img">
+                <img src="Imagies/Images/Jag.png" alt="Peter Båth">
+            </div>
+            <div class="hero-text-container">
+                <h1>Hi, my name is Peter Båth and im a media-technician and web develepor</h1>
+                <p>
+                    I enjoy working on media-related projects and continuously learning new things, with a strong passion for music and sound. I always look forward to new challenges and firmly believe that my skills and positive attitude are valuable assets in any professional role. I am receptive to acquiring new knowledge and relish the opportunity to meet new people. I am a self-learner who is accustomed to seeking solutions to problems and taking responsibility for my tasks.
+                    <br>
+                    <br>
+                    I am a cheerful and proactive individual who is constantly eager to acquire new knowledge and explore opportunities in both life and work. I consistently work hard to achieve my goals. 
+                    <br>
+                    <br>
+                    I have a technical background, having pursued the Technology Program with a focus on Design and Product Development at LBS in Halmstad. And recently, gratuated as a Media Technician specializing in digital audio production at BTH (Blekinge Institute of Technology).
+                </p>
+                <br>
+                <button class="white-button" href="javascript:void(0);" onclick="scrollToProjects()">Projects</button>
+                </a>
+            </div>
+        </header>
+        <section class="work">
+            <h2 class="work-title">Work</h2>
+            <p class="work-subtitle"><!-- Tjänster -->
+                During my 3 years at Blekinge Institute of Technology, I have been involved in several multimedia projects, and more recently, I have rekindled my interest in web development. Below, you will find some of the major projects I have worked on, as well as my skills and competencies.
+            </p>
+            <div class="Chip-Wrapper">
+<!--                 <div style="border-color: #016A70;" class="chip">React</div> -->
+                <div style="border-color: #016A70;" class="chip">RWD</div>
+<!--                 <div style="border-color: #7091F5;" class="chip">Firebase</div> -->
+<!--                 <div style="border-color: #D2DE32;" class="chip">NPM</div> -->
+<!--                 <div style="border-color: #A2C579;" class="chip">Mongo DB</div> -->
+                <div style="border-color: #FFDBAA;" class="chip">Javascript</div>
+                <div style="border-color: #96C291;" class="chip">Typescript</div>
+                <div style="border-color: #FFB7B7;" class="chip">HTML</div>
+                <div style="border-color: #793FDF;" class="chip">CSS</div>
+            </div>
+        </section>
+        <section class="project-container" id="my-projects">
+          
+            <article class="project">
+                <div class="img-container">
+                    <img class="project-img" src="Imagies/Images/nedladdning.jpeg" alt="Spotify clone" width="500">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="project-text-container">
+                    <h3 class="project-text-title">Noussonic</h3>
+                    <p class="project-text-subtitle">Noussonic is a company we collaborated with to create an immersive and interactive auditory experience, where one navigates through multiple levels and encounters various environments within a 3D space.</p>
+                   <a href="https://www.youtube.com/watch?v=IfLdGi9CB2c&t=18s" target="_blank"><button>View the the project</button></a>
+                </div>
+            </article>
+          
+            <article class="project">
+                <div class="img-container">
+                    <img class="project-img" src="Imagies/Images/baba.png" alt="Spotify clone" width="500">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="project-text-container">
+                    <h3 class="project-text-title">Backwards Speaker</h3>
+                    <p class="project-text-subtitle">A collaborative project with Kreativum, a natural science museum. Our mission was to conceive and construct an interactive installation that allows you to speak into a microphone and experience the playback of your voice in reverse, all while receiving captivating visual feedback.</p>
+                  <a href="https://youtube.com/shorts/AlQ2DotoG-A?feature=share" target="_blank"><button>View the product</button></a>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="img-container">
+                    <img class="project-img" src="Imagies/Images/_Första Iterationen.jpg" alt="Spotify clone" width="500">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="project-text-container">
+                    <h3 class="project-text-title">Interactive sound system</h3>
+                    <p class="project-text-subtitle">An interactive sound system that utilizes Arduino, Pure Data, and ultrasonic sensors to play music and notes by positioning the hand at various distances from the sensors.</p>
+                   <a href="https://youtu.be/nk8CLyOz1-8" target="_blank"><button>View the project</button></a>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="img-container">
+                    <img class="project-img" src="Imagies/Images/studio_text_image_pair_1.jpg" alt="Spotify clone" width="500">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="project-text-container">
+                    <h3 class="project-text-title">Music production</h3>
+                    <p class="project-text-subtitle">I have been producing music, DJing, and working on sound design since 2017. I have produced various genres within EDM and use FL Studio and Pro Tools for my work.</p>
+                   <a href="https://soundcloud.com/unkback/tracks" target="_blank"> <button>My soundcloud</button></a>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="img-container">
+                    <img class="project-img" src="Imagies/Images/AdobeStock_6525764-scaled.jpeg" alt="Spotify clone" width="500">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="project-text-container">
+                    <h3 class="project-text-title">Sounddesign</h3>
+                    <p class="project-text-subtitle">I have experience in sound design within animation films and games, where I edited and processed audio elements.</p>
+                   <a href="https://www.youtube.com/watch?v=n0p3XRK9Aiw" target="_blank"><button>Example of design</button></a>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="img-container">
+                    <img class="project-img" src="Imagies/Images/Field Recording.jpg" alt="Spotify clone" width="500">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="project-text-container">
+                    <h3 class="project-text-title">Field recording</h3>
+                    <p class="project-text-subtitle">Experience in field recording, capturing one-shot sounds and ambient recordings in various environments and sorting/naming of meta files.</p>
+                   <a href="https://drive.google.com/drive/folders/1i-KDfOKzyT7i3cyRtxw-x8GukzOhK0uW?usp=drive_link" target="_blank"><button>Google drive of recordings</button></a>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="img-container">
+                    <img class="project-img" src="Imagies/Images/1680955326122.png" alt="Spotify clone" width="500">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="project-text-container">
+                    <h3 class="project-text-title">This website</h3>
+                    <p class="project-text-subtitle">During the summer of 2023, I made the decision to revisit HTML, CSS, and JavaScript. I aimed to create a portfolio where I have complete control over the style, look and content, showcasing the skills I acquired during my life.</p>
+                   <!-- <a href="https://peter-bath-portfolio.netlify.app/" target="_blank"><button>Well you'r already here</button></a> -->
+                </div>
+            </article>
+
+        </section> 
+    </main>
+    <footer>
+        <p class="footer-license">
+            &copy;2023 - Peter Båth
+        </p>
+    </footer>
+
+</body>
+</html>
