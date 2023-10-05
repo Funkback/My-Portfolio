@@ -295,6 +295,7 @@ button:hover {
     .project-text-container {
         padding: 10px;
         position: relative;
+        top: -190px;
     }
    
     p {
@@ -343,6 +344,8 @@ button:hover {
 
     .project-text-subtitle {
         padding: 10px 0;
+/*         position: relative;
+        top: -150px; */
     }
 
     .nav-links img {
